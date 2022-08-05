@@ -20,6 +20,7 @@ describe('as a Broker I should be able to search through my quotes so that I can
         homePage.buildingsAndContents.should('be.visible');
     });
     it('should be able to navigate to the recent activity page', () => {
+        homePage.gotIt.click();
         homePage.recentActivityTab.click();
         homePage.quoteReference.should('be.visible');
     });
