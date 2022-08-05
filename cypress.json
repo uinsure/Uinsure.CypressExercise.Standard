@@ -1,0 +1,6 @@
+{
+    "baseUrl": "https://quotes.test.uinsure.co.uk",
+    "defaultCommandTimeout": 25000,
+    "viewportWidth": 1280,
+    "viewportHeight": 1024
+}
