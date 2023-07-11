@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "target": "ES2022",
+        "types": ["cypress", "node"],
+        "esModuleInterop": true
+    },
+    "include": ["../../node_modules/cypress", "cypress/**/*.ts", "cypress.config.ts"],
+    "testFiles": "cypress/integration/specs/*.cy.ts"
+}
